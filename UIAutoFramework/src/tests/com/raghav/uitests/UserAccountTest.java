@@ -1,4 +1,4 @@
-package tests.com.raghav.UITests;
+package tests.com.raghav.uitests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
