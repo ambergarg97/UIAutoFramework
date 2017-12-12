@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\raghav\AppData\Local\Temp\testng-eclipse-1793228325\testng-customsuite.xml</span>
+                    <span>C:\Users\raghav\AppData\Local\Temp\testng-eclipse-101187440\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -58,7 +58,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-Default_suite">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MyFirstTest" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.com.raghav.UITests.UserAccountTest" hash-for-method="testUserLogin">testUserLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +119,16 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MyFirstTest</span>
+              <span class="class-name">tests.com.raghav.UITests.UserAccountTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
+                  <a name="testUserLogin">
+                  </a> <!-- testUserLogin -->
+                  <span class="method-name">testUserLogin</span>
+                  <em>
+(test is for user login to Gmail !)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\raghav\AppData\Local\Temp\testng-eclipse-1793228325\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\raghav\AppData\Local\Temp\testng-eclipse-101187440\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +145,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MyFirstTest&quot;/&gt;
+      &lt;class name=&quot;tests.com.raghav.UITests.UserAccountTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -167,6 +169,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">UserAccount</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUserLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -185,14 +195,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
-data.setCell(0, 2, 'MyFirstTest')
-data.setCell(0, 3, 26);
+data.setCell(0, 1, 'testUserLogin')
+data.setCell(0, 2, 'tests.com.raghav.UITests.UserAccountTest')
+data.setCell(0, 3, 31087);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 ms</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,11 +228,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">MyFirstTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">f</span>
+              <div class="chronological-class-name">tests.com.raghav.UITests.UserAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testUserLogin</span>
+                <span class="method-start">58186 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">89276 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
